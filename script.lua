@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
 local UserInputService = game:GetService("UserInputService")
 
-local frameWidth, frameHeight, timeLimit = 75, 75, 180
+local frameWidth, frameHeight, timeLimit = 75, 75, 600
 
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
@@ -97,7 +97,3 @@ task.spawn(function()
         end
     end
 end)
-Save
-New
-Duplicate & Edit
-Raw Text
